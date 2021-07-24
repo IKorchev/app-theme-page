@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/app-theme-page/static/css/main.50aaf9b2.chunk.css",
-    "main.js": "/app-theme-page/static/js/main.1c83d048.chunk.js",
-    "main.js.map": "/app-theme-page/static/js/main.1c83d048.chunk.js.map",
+    "main.js": "/app-theme-page/static/js/main.58956ce6.chunk.js",
+    "main.js.map": "/app-theme-page/static/js/main.58956ce6.chunk.js.map",
     "runtime-main.js": "/app-theme-page/static/js/runtime-main.30f9dbc9.js",
     "runtime-main.js.map": "/app-theme-page/static/js/runtime-main.30f9dbc9.js.map",
-    "static/js/2.57037f3d.chunk.js": "/app-theme-page/static/js/2.57037f3d.chunk.js",
-    "static/js/2.57037f3d.chunk.js.map": "/app-theme-page/static/js/2.57037f3d.chunk.js.map",
+    "static/js/2.6601b35f.chunk.js": "/app-theme-page/static/js/2.6601b35f.chunk.js",
+    "static/js/2.6601b35f.chunk.js.map": "/app-theme-page/static/js/2.6601b35f.chunk.js.map",
     "index.html": "/app-theme-page/index.html",
     "static/css/main.50aaf9b2.chunk.css.map": "/app-theme-page/static/css/main.50aaf9b2.chunk.css.map",
-    "static/js/2.57037f3d.chunk.js.LICENSE.txt": "/app-theme-page/static/js/2.57037f3d.chunk.js.LICENSE.txt",
+    "static/js/2.6601b35f.chunk.js.LICENSE.txt": "/app-theme-page/static/js/2.6601b35f.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/app-theme-page/static/media/google-play-badge.f902960a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.30f9dbc9.js",
-    "static/js/2.57037f3d.chunk.js",
+    "static/js/2.6601b35f.chunk.js",
     "static/css/main.50aaf9b2.chunk.css",
-    "static/js/main.1c83d048.chunk.js"
+    "static/js/main.58956ce6.chunk.js"
   ]
 }
