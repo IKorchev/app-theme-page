@@ -1,0 +1,123 @@
+.App-header {
+  background-image: url("../assets/Group\ 2.svg");
+  background-position: center -50%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  width: 100%;
+  flex-wrap: nowrap;
+  height: max-content;
+  @media (max-width: 992px) {
+    padding: 0;
+  }
+}
+.header-content {
+  padding-left: $container-padding;
+  margin: 5rem auto;
+  background-image: url("../assets/free-iphone-12-pro-6.1_-mockup-template@2x\ \(1\).png");
+  background-size: 50rem;
+  background-repeat: no-repeat;
+  background-position: 90% -7rem;
+  justify-content: start;
+  font-family: "Poppins", sans-serif;
+  h1 {
+    font-size: 4rem !important;
+    font-weight: 1000 !important;
+  }
+  p {
+    font-weight: bold;
+    width: 50%;
+  }
+  .cto-container {
+    margin-top: 1rem;
+  }
+  .cto-button {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .cto-button1 {
+    background-color: #e6cffd;
+    padding: 0.6rem 2rem;
+    box-shadow: 0.4rem 0.4rem 0px #faf6ffa6;
+    border-radius: 0.7rem;
+    &:hover,
+    &:focus {
+      background-color: #d8b9f8;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25), 0.4rem 0.4rem 0px #faf6ffa6;
+    }
+  }
+  .cto-button2 {
+    margin: 0.5rem;
+    width: 9.4rem;
+    height: 2.8rem;
+    padding: 0;
+    border-radius: 0.4rem;
+    background-image: url("../assets/google-play-badge.png");
+    background-position: center center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+  }
+  .cto-button3 {
+    margin: 0.5rem;
+    width: 9.4rem;
+    height: 2.8rem;
+    padding: 0;
+    background-image: url("../assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  //media queries
+  @media (max-width: 1200px) {
+    padding-right: 0 !important;
+    background-position: 400px -8rem;
+    h1 {
+      font-size: 2.5rem !important;
+    }
+    p {
+      font-size: 1.3rem;
+      width: 50% !important;
+    }
+  }
+  @media (max-width: 992px) {
+    background-position: 300px -8rem;
+
+    margin-top: 5rem;
+    padding-left: 5% !important;
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  @media (max-width: 780px) {
+    background-position: 150px -8rem;
+  }
+  @media (max-width: 580px) {
+    background-position: 50px -8rem;
+  }
+}
+
+.form-wrapper {
+  max-width: 35rem;
+  @media (max-width: 992px) {
+    width: 70%;
+  }
+  @media (max-width: 600px) {
+    width: 98%;
+  }
+  form {
+    background: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+    border-radius: 0.7rem;
+    padding: 1rem 1rem;
+    box-shadow: 0rem 0.2rem 10px rgba(0, 0, 0, 0.3), 0.8rem 0.8rem 0 #ecf4ff82,
+      1.6rem 1.6rem 0 #c7dbf7c4;
+  }
+}
+
+@media (min-width: 1921px) {
+  html {
+    font-size: 0.9vw;
+  }
+}

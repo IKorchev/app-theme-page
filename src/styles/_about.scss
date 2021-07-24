@@ -1,0 +1,30 @@
+.about-wrapper {
+  margin-top: 5rem;
+  height: 55rem !important;
+  background: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%) !important;
+}
+
+.about-content-wrapper {
+  padding: 5rem $container-padding;
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/Innovation-amico.svg");
+  background-repeat: no-repeat;
+  background-position: 90% 20%;
+  background-size: 20rem;
+}
+
+.about-content {
+  display:grid;
+  width:50%;
+  
+}
+
+.card {
+  border: 0 !important;
+  background-color: #eeddfd;
+  height: max-content;
+  width: 20rem;
+  box-shadow: 0rem 0.2rem 10px rgba(0, 0, 0, 0.3), 0.8rem 0.8rem 0 #ecf4ff82,
+    1.6rem 1.6rem 0 #c7dbf7c4;
+}
