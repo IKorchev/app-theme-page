@@ -2,7 +2,7 @@ import "./styles/App.scss"
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import About from "./components/About"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 function App() {
   return (
     <Router>
