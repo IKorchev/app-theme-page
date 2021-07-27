@@ -7,6 +7,7 @@ $pinkish: #e0c3fc;
 @import "./navbar";
 @import "./header";
 @import "./about";
+@import "./infocards";
 
 * {
   box-sizing: border-box;
@@ -15,6 +16,14 @@ $pinkish: #e0c3fc;
 }
 html,
 body {
-  background: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  background: linear-gradient(62deg, #8ec5fc, #e0c3fc);
   background-repeat: no-repeat;
+}
+.App {
+  background-image: url("../assets/Group\ 2.svg");
+  background-position: center top 15rem;
+  background-repeat: repeat-y;
+  background-size: contain;
+  overflow-x: hidden;
+  width: 100%;
 }

@@ -1,0 +1,19 @@
+.info-cards-wrapper {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 50%, rgba($dark, 0.1) 100%);
+
+  padding: 5rem 0 !important;
+}
+.card {
+  width: 20rem;
+  border: 0 !important;
+  border-radius: 1rem;
+  padding: 1rem !important;
+  box-shadow: 0.5rem 0.5rem 1rem $purple-100;
+  img {
+    display: inline-block;
+    width: 5rem;
+  }
+  span {
+    font-weight: 500;
+  }
+}

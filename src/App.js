@@ -2,6 +2,7 @@ import "./styles/App.scss"
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
 import About from "./components/About"
+import InfoCards from "./components/InfoCards"
 import { HashRouter as Router, Switch, Route } from "react-router-dom"
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route exact path='/'>
             <Header />
+            <InfoCards />
           </Route>
           <Route path='/about'>
             <About />

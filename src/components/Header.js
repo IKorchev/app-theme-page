@@ -2,7 +2,7 @@ import SubscribeForm from "./SubscribeForm"
 
 const Header = () => {
   return (
-    <header className='App-header container-fluid row mx-auto'>
+    <header className='header-wrapper container row mx-auto'>
       <div className='header-content d-flex flex-column'>
         <h1>
           Design. Build. <br></br> Create

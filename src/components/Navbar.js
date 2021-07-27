@@ -2,7 +2,7 @@ import React from "react"
 import { NavLink } from "react-router-dom"
 const Navbar = () => {
   return (
-    <div className='container-fluid nav-container'>
+    <div className='container nav-container'>
       <div className='container-fluid d-flex justify-content-between'>
         <NavLink
           className='navbar-logo navbar-brand'

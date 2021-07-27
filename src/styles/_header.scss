@@ -1,22 +1,28 @@
-.App-header {
-  background-image: url("../assets/Group\ 2.svg");
-  background-position: center -50%;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-  width: 100%;
-  flex-wrap: nowrap;
-  height: max-content;
-  @media (max-width: 992px) {
-    padding: 0;
-  }
-}
-.header-content {
-  padding-left: $container-padding;
-  margin: 5rem auto;
+.header-wrapper {
   background-image: url("../assets/free-iphone-12-pro-6.1_-mockup-template@2x\ \(1\).png");
   background-size: 50rem;
   background-repeat: no-repeat;
-  background-position: 90% -7rem;
+  background-position: right -5rem top -5rem;
+  @media (max-width: 1200px) {
+    background-size: 40rem;
+  }
+  @media (max-width: 992px) {
+    background-size: 30rem;
+    background-position: right -5rem top;
+  }
+  @media (max-width: 770px) {
+    background-position: right -6rem top;
+  }
+  @media (max-width: 460px) {
+    background-size: 25rem;
+  }
+}
+.header-content {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 5%;
+  min-height: 90vh;
+  margin: 5rem auto;
   justify-content: start;
   font-family: "Poppins", sans-serif;
   h1 {
@@ -72,27 +78,19 @@
   //media queries
   @media (max-width: 1200px) {
     padding-right: 0 !important;
-    background-position: 400px -8rem;
     h1 {
-      font-size: 2.5rem !important;
+      font-size: 2.2rem !important;
     }
     p {
       font-size: 1.3rem;
-      width: 50% !important;
+      width: 60% !important;
     }
   }
   @media (max-width: 992px) {
-    background-position: 300px -8rem;
-
     margin-top: 5rem;
-    padding-left: 5% !important;
-
     p {
       font-size: 1.2rem;
     }
-  }
-  @media (max-width: 780px) {
-    background-position: 150px -8rem;
   }
   @media (max-width: 580px) {
     background-position: 50px -8rem;
@@ -110,14 +108,15 @@
   form {
     background: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
     border-radius: 0.7rem;
-    padding: 1rem 1rem;
     box-shadow: 0rem 0.2rem 10px rgba(0, 0, 0, 0.3), 0.8rem 0.8rem 0 #ecf4ff82,
       1.6rem 1.6rem 0 #c7dbf7c4;
   }
-}
 
-@media (min-width: 1921px) {
-  html {
-    font-size: 0.9vw;
+  #button-addon2 {
+    background-color: #8ec5fc;
+    &:focus,
+    &:hover {
+      background-color: #3d9eff;
+    }
   }
 }
