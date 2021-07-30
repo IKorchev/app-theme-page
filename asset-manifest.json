@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/app-theme-page/static/css/main.23a0e81e.chunk.css",
-    "main.js": "/app-theme-page/static/js/main.7fc50bac.chunk.js",
-    "main.js.map": "/app-theme-page/static/js/main.7fc50bac.chunk.js.map",
+    "main.css": "/app-theme-page/static/css/main.7bc61ade.chunk.css",
+    "main.js": "/app-theme-page/static/js/main.cce1fca0.chunk.js",
+    "main.js.map": "/app-theme-page/static/js/main.cce1fca0.chunk.js.map",
     "runtime-main.js": "/app-theme-page/static/js/runtime-main.30f9dbc9.js",
     "runtime-main.js.map": "/app-theme-page/static/js/runtime-main.30f9dbc9.js.map",
-    "static/js/2.d9ccfeb8.chunk.js": "/app-theme-page/static/js/2.d9ccfeb8.chunk.js",
-    "static/js/2.d9ccfeb8.chunk.js.map": "/app-theme-page/static/js/2.d9ccfeb8.chunk.js.map",
+    "static/js/2.a87620c5.chunk.js": "/app-theme-page/static/js/2.a87620c5.chunk.js",
+    "static/js/2.a87620c5.chunk.js.map": "/app-theme-page/static/js/2.a87620c5.chunk.js.map",
     "index.html": "/app-theme-page/index.html",
-    "static/css/main.23a0e81e.chunk.css.map": "/app-theme-page/static/css/main.23a0e81e.chunk.css.map",
-    "static/js/2.d9ccfeb8.chunk.js.LICENSE.txt": "/app-theme-page/static/js/2.d9ccfeb8.chunk.js.LICENSE.txt",
+    "static/css/main.7bc61ade.chunk.css.map": "/app-theme-page/static/css/main.7bc61ade.chunk.css.map",
+    "static/js/2.a87620c5.chunk.js.LICENSE.txt": "/app-theme-page/static/js/2.a87620c5.chunk.js.LICENSE.txt",
     "static/media/Bulb.8bdc6cde.svg": "/app-theme-page/static/media/Bulb.8bdc6cde.svg",
     "static/media/Cloud.ce5998bb.svg": "/app-theme-page/static/media/Cloud.ce5998bb.svg",
     "static/media/App.scss": "/app-theme-page/static/media/google-play-badge.f902960a.png",
-    "static/media/Smartphone.d7e4dd9e.svg": "/app-theme-page/static/media/Smartphone.d7e4dd9e.svg"
+    "static/media/Outer space-cuate.275ea964.svg": "/app-theme-page/static/media/Outer space-cuate.275ea964.svg",
+    "static/media/Smartphone.d7e4dd9e.svg": "/app-theme-page/static/media/Smartphone.d7e4dd9e.svg",
+    "static/media/link.82cf8141.svg": "/app-theme-page/static/media/link.82cf8141.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.30f9dbc9.js",
-    "static/js/2.d9ccfeb8.chunk.js",
-    "static/css/main.23a0e81e.chunk.css",
-    "static/js/main.7fc50bac.chunk.js"
+    "static/js/2.a87620c5.chunk.js",
+    "static/css/main.7bc61ade.chunk.css",
+    "static/js/main.cce1fca0.chunk.js"
   ]
 }
