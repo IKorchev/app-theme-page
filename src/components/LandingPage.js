@@ -1,8 +1,8 @@
 import SubscribeForm from "./SubscribeForm"
 
-const Header = () => {
+const LandingPage = () => {
   return (
-    <header className='header-wrapper container row mx-auto'>
+    <main className='header-wrapper container row mx-auto'>
       <div className='header-content d-flex flex-column'>
         <h1>
           Design. Build. <br></br> Create
@@ -20,8 +20,8 @@ const Header = () => {
         <SubscribeForm />
       </div>
       <div className='header-image'></div>
-    </header>
+    </main>
   )
 }
 
-export default Header
+export default LandingPage

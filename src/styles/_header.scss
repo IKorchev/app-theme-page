@@ -18,19 +18,17 @@
   }
 }
 .header-content {
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 5%;
-  min-height: 90vh;
-  margin: 5rem auto;
+  padding: 5rem 0;
+  min-height: 50rem;
+  margin: 1rem auto;
   justify-content: start;
   font-family: "Poppins", sans-serif;
   h1 {
     font-size: 4rem !important;
-    font-weight: 1000 !important;
+    font-weight: bolder !important;
   }
   p {
-    font-weight: bold;
+    font-weight: lighter !important;
     width: 50%;
   }
   .cto-container {
@@ -41,13 +39,13 @@
     font-size: 1.2rem;
   }
   .cto-button1 {
-    background-color: #e6cffd;
+    background-color: #fff;
     padding: 0.6rem 2rem;
     box-shadow: 0.4rem 0.4rem 0px #faf6ffa6;
     border-radius: 0.7rem;
     &:hover,
     &:focus {
-      background-color: #d8b9f8;
+      background-color: #e6cffd;
     }
     &:focus {
       box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25), 0.4rem 0.4rem 0px #faf6ffa6;
@@ -111,9 +109,15 @@
     box-shadow: 0rem 0.2rem 10px rgba(0, 0, 0, 0.3), 0.8rem 0.8rem 0 #ecf4ff82,
       1.6rem 1.6rem 0 #c7dbf7c4;
   }
-
+  input {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
   #button-addon2 {
     background-color: #8ec5fc;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-left: none !important;
     &:focus,
     &:hover {
       background-color: #3d9eff;

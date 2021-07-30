@@ -24,10 +24,10 @@ const InfoCards = () => {
   }, [])
   return (
     <div className='info-cards-wrapper container-fluid p-5'>
-      <div ref={parentRef} className='container row mx-auto justify-content-center'>
-        <Card icon={icon1} text='Make your ideas reality' />
+      <div ref={parentRef} className='container mt-5 row mx-auto justify-content-center'>
+        <Card icon={icon1} text='Get inspired instantly' />
         <Card icon={icon2} text='Available on all devices' />
-        <Card icon={icon3} text='Everything stored on the cloud' />
+        <Card icon={icon3} text='Unlimited cloud storage' />
       </div>
     </div>
   )

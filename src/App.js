@@ -1,24 +1,28 @@
 import "./styles/App.scss"
 import Navbar from "./components/Navbar"
-import Header from "./components/Header"
+import LandingPage from "./components/LandingPage"
 import About from "./components/About"
 import InfoCards from "./components/InfoCards"
 import { HashRouter as Router, Switch, Route } from "react-router-dom"
+import MainSection from "./components/MainSection"
+import Footer from "./components/Footer"
 function App() {
   return (
     <Router>
-      <div className='App'>
+      <main className='App'>
         <Navbar />
         <Switch>
           <Route exact path='/'>
-            <Header />
+            <LandingPage />
             <InfoCards />
+            <MainSection />
+            <Footer />
           </Route>
           <Route path='/about'>
             <About />
           </Route>
         </Switch>
-      </div>
+      </main>
     </Router>
   )
 }
